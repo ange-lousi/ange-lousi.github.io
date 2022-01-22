@@ -499,16 +499,16 @@ button:focus {
 
 
 
-/* SERVICE */
+/* project */
 
 
-#mu-service {
+#mu-project {
 	display: inline;
 	float: left;
 	width: 100%;
 }
 
-.mu-service-area {
+.mu-project-area {
 	display: inline;
 	float: left;
 	padding-top: 90px;
@@ -570,11 +570,11 @@ button:focus {
 }
 
 
-/*--------------------*/
-/* PORTFOLIO */
-/*--------------------*/
 
-.mu-portfolio-header {
+/* PORTFOLIO */
+
+
+.mu-project-header {
 	display: inline;
 	float: left;
 	text-align: center;
