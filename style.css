@@ -100,7 +100,7 @@ button:focus {
 	/* 60% { transform: scale(1); } */
 	}
 
-.latest-post  {
+.latest-post {
 		padding: 30px;
 		box-shadow: 0 0 3px #ddd;
 		background-color: #ffffff;
@@ -186,6 +186,8 @@ button:focus {
 	width: 100%;
 	padding-top: 30%;
 	text-align: center;
+	transform: translate(0px, -50px)
+
 }
 
 .mu-featured-area h1 {
@@ -315,12 +317,16 @@ button:focus {
 	}	 
 
 	.mu-featured-area {
-		padding: 28% 5%;
+		padding: 30% 5%;
+		transform: translate(0px, 30px)
+
 	}
 
 }
 
 @media (max-width: 767px) {
+
+	
 	.navbar-default .navbar-toggle {
 		border-color: #fff;
 	}
@@ -352,6 +358,7 @@ button:focus {
 	#mu-header {
 		padding: 10px 0;
 	}
+
 
 }
 
@@ -395,7 +402,7 @@ button:focus {
 	}
 
 	.mu-featured-area {
-		padding: 20% 5%;
+		padding: 30% 5%;
 	}
 
 				
