@@ -39,3 +39,30 @@ function erase() {
 document.addEventListener("DOMContentLoaded", function() { // On DOM Load initiate the effect
   if(textArray.length) setTimeout(type, newTextDelay + 250);
 });
+
+$(document).ready(function () {
+  $(".carousel_se_01_carousel").owlCarousel();
+});
+$(".carousel_se_01_carousel").owlCarousel({
+  items: 3,
+  nav: true,
+  loop: true,
+  margin: 15,
+  mouseDrag: true,
+  responsiveClass: true,
+  /*navText : ["<i class='fas fa-long-arrow-alt-left'></i>","<i class='fas fa-long-arrow-alt-right'></i>"],*/
+  responsive: {
+    0: {
+      items: 1,
+    },
+    400: {
+      items: 1,
+    },
+    700: {
+      items: 2,
+    },
+    1000: {
+      items: 3,
+    },
+  },
+});
